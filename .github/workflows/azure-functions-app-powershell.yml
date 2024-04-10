@@ -13,3 +13,9 @@ jobs:
         shell: bash
         run: |
           echo 'windows bash'
+          ls -ltr
+          echo date >> date.txt
+          git add .
+          git commit -m 'add'
+          git push origin main
+          
