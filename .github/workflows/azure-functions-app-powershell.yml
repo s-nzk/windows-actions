@@ -14,8 +14,10 @@ jobs:
         run: |
           echo 'windows bash'
           ls -ltr
+          git config user.email "actions@github.com"
+          git config user.name "actions
           echo date >> date.txt
           git add .
           git commit -m 'add'
-          git push origin main
+          git push
           
