@@ -1,4 +1,3 @@
-
 name: windows-test
 
 on:
@@ -11,7 +10,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Checkout
+      - name: echo
         shell: bash
         run: |
           echo 'windows bash'
@@ -22,4 +21,3 @@ jobs:
           git add .
           git commit -m 'add'
           git push
-          
